@@ -19,6 +19,10 @@ Please run `php artisan db:seed` to add 10 users. User emails can be checked wit
 ## Adding other data
 For every model there is a seeder file in <span style="color: green">database/seeders</span> folder. To fill database with fake data please run `php artisan db:seed  --class=SEEDER_CLASS_NAME`
 ***
+## Running application
+#### Local machine
+The easiest way to run a laravel application is to run `php artisan serve`. After that you can browse application by entering `localhost:8000` in browser. If your computer's port 8000 is taken your can use `--port` flag to change it. Of course, you can always configure your webserver to run the application. 
+***
 ## Tests
 #### Running Tests
 Please run `php artisan test` to check test results.
