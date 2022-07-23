@@ -45,4 +45,3 @@ Views are separated in below folders
 1. Configuring Laravel [Sanctum](https://laravel.com/docs/9.x/sanctum) to make accessing api secure via tokens.
 2. Refactoring tests to make a use of coverage test introduced in Laravel 9.
 3. Unfortunately since Amazon aws service is not available in Iran, Docker implementation of [minio](https://hub.docker.com/r/minio/minio/) can be an improvement for media saving.
-***
